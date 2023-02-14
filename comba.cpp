@@ -111,7 +111,7 @@ void op_7() {
     std::cin >> n;
     // ans = n!
     for (int i = 1; i <= n; i++) {
-        ans = ans + i;
+        ans = ans * i;
     }
     std::cout << "Ответ: " << ans;
 }
